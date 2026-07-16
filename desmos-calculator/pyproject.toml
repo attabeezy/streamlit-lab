@@ -1,0 +1,11 @@
+[project]
+name = "desmos-calculator"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "streamlit",
+    "sympy",
+]
+
+[tool.uv]
+package = false

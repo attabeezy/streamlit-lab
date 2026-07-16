@@ -1,0 +1,18 @@
+[project]
+name = "credit-scorer"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pillow",
+    "plotly",
+    "scikit-learn",
+    "streamlit",
+]
+
+[dependency-groups]
+dev = ["jupyterlab"]
+
+[tool.uv]
+package = false
